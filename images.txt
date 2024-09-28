@@ -4,4 +4,4 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
-docker run -d --restart=always --name qsign -p 8080:8080 -e ANDROID_ID=xxxxxxx xzhouqd/qsign:8.9.63
+xzhouqd/qsign:8.9.63
